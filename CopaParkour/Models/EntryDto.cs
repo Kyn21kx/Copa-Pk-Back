@@ -8,6 +8,8 @@ namespace CopaParkour.Models
 
         public string Phone { get; set; }
 
+        public int Age { get; set; }
+
         public Categories Category { get; set; }
 
         public string? Email { get; set; }

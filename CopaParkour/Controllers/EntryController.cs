@@ -10,6 +10,7 @@ using System.Net;
 using System.ComponentModel.DataAnnotations;
 using QRCoder;
 using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Cors;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -17,6 +18,7 @@ namespace CopaParkour.Controllers;
 
 [ApiController]
 [Route("entry")]
+[EnableCors("_allowAllOrigins")]
 public class EntryController : ControllerBase
 {
 	const string FIREBASE_URL = "https://copa-pk-default-rtdb.firebaseio.com/";
@@ -26,7 +28,7 @@ public class EntryController : ControllerBase
 	const string INVALID_PHONE_MSG = "El número de teléfono ingresado no es válido!";
     const string ALREADY_EXISTING_EMAIL = "El correo ingresado ya existe, favor de revisar su aplicación!";
     const string INVALID_CATEGORY = "Su categoría no existe o no es válida, favor de revisar su aplicación!";
-	const string RESOURCES_PATH = "Resources";
+	const string RESOURCES_PATH = "wwwroot";
 	const string CARTA_MENORES_PATH = $"{RESOURCES_PATH}/CARTA_MENORES.pdf";
 	const string CARTA_ADULTOS_PATH = $"{RESOURCES_PATH}/CARTA_ADULTOS.pdf";
 

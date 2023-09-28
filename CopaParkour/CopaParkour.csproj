@@ -9,10 +9,10 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
     <PackageReference Include="QRCoder" Version="1.4.3" />
-    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +23,10 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Services\" />
-    <Folder Include="Resources\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\CARTA_ADULTOS.pdf" />
+    <None Include="wwwroot\CARTA_MENORES.pdf" />
   </ItemGroup>
 </Project>
