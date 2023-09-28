@@ -135,7 +135,7 @@ public class EntryController : ControllerBase
 			var pdfContentByte = stamper.GetOverContent(1);
 
 			iTextSharp.text.Image image = iTextSharp.text.Image.GetInstance(inputImageStream);
-            image.SetAbsolutePosition(225, 20);
+            image.SetAbsolutePosition(225, 10);
             pdfContentByte.AddImage(image);
 			stamper.Close();
 			return outputPdfStream;

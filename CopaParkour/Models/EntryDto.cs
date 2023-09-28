@@ -12,6 +12,8 @@ namespace CopaParkour.Models
 
         public string? Email { get; set; }
 
+        public string? Branch { get; set; }
+
 
         public override string ToString()
         {
