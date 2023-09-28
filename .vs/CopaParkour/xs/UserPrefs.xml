@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{1E9CE29A-1EB4-4EA0-A5EA-0ACA1310A573}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CopaParkour/Models/Categories.cs">
+    <Files>
+      <File FileName="CopaParkour/Controllers/WeatherForecastController.cs" Line="21" Column="1" />
+      <File FileName="CopaParkour/Program.cs" />
+      <File FileName="CopaParkour/WeatherForecast.cs" />
+      <File FileName="CopaParkour/Models/EntryDto.cs" />
+      <File FileName="CopaParkour/Models/Categories.cs" Line="7" Column="12" />
+      <File FileName="CopaParkour/Models/SendEntryResponse.cs" />
+      <File FileName="CopaParkour/Controllers/EntryController.cs" Line="37" Column="66" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CopaParkour" expanded="True">
+            <Node name="CopaParkour" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Categories.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>arreglo</Value>
+          <Value>startElement</Value>
+          <Value>this.elementos</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CopaParkour PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

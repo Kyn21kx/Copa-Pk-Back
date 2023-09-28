@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopaParkour", "CopaParkour\CopaParkour.csproj", "{1E9CE29A-1EB4-4EA0-A5EA-0ACA1310A573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9CE29A-1EB4-4EA0-A5EA-0ACA1310A573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9CE29A-1EB4-4EA0-A5EA-0ACA1310A573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9CE29A-1EB4-4EA0-A5EA-0ACA1310A573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9CE29A-1EB4-4EA0-A5EA-0ACA1310A573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B07919E-74F4-422F-BC84-2CE59EEDEC1E}
+	EndGlobalSection
+EndGlobal
